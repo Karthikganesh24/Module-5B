@@ -1,5 +1,5 @@
-# NumPy Program: Replace the Second Column in a 2D Array
 
+# NumPy Program: Replace the Second Column in a 2D Array
 ## 🎯 Aim
 To write a **NumPy** program that deletes the second column from a given 2D array and inserts a new column at the same position.
 
@@ -11,22 +11,22 @@ To write a **NumPy** program that deletes the second column from a given 2D arra
 5. **Display Result**: Print the updated array with the replaced column.
 
 ## 🧾 Program
+
 ```
 import numpy as np
-array = np.array([[1, 2, 3],
-                  [4, 5, 6],
-                  [7, 8, 9]])
-new_column = np.array([10, 11, 12])
-print("Original Array:")
-print(array)
-array_without_second_column = np.delete(array, 1, axis=1)
-updated_array = np.insert(array_without_second_column, 1, new_column, axis=1)
-print("\nUpdated Array with Replaced Second Column:")
-print(updated_array)
-
+orig=np.array(eval(input()))
+new=np.array(eval(input()))
+print("Printing Original array")
+print(orig)
+modif=np.delete(orig,1,axis=1)
+print("Array after deleting column 2 on axis 1")
+print(modif)
+result=np.insert(modif,1,new,axis=1)
+print("Array after inserting column 2 on axis 1")
+print(result)
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/b28336e8-586e-4d2a-a5a0-634f3e990a8e)
+![439326579-56ee6af8-835c-4881-9f98-3188cd2ed32e](https://github.com/user-attachments/assets/c3764b9d-e3eb-434b-86b3-57c7d2ffd003)
 
 ## Result
-Thus the above program was executed successfully.
+Thus,the program has been executed successfully.
