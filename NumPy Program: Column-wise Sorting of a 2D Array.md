@@ -1,3 +1,4 @@
+
 # NumPy Program: Column-wise Sorting of a 2D Array
 
 ## 🎯 Aim
@@ -14,16 +15,14 @@ To write a **NumPy** program that sorts the elements in each column of a given 2
 ## 🧾 Program
 ```
 import numpy as np
-array = np.array([[12, 5, 34],
-                  [2, 45, 8],
-                  [21, 9, 13]])
-print("Original Array:\n", array)
-sorted_array = np.sort(array, axis=0)
-print("Column-wise Sorted Array:\n", sorted_array)
-
+x=np.array(eval(input()))
+sorted=np.sort(x,axis=1)
+print("Given array ")
+print("",x,"\n")
+print(sorted)
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/89de8511-5f8f-4d1c-bde2-e6f8b6b261a0)
+![439322848-fe2b0019-a533-4b1d-8e6b-1465ca52b498](https://github.com/user-attachments/assets/cc08628a-f70d-4606-b262-996fc3272491)
 
 ## Result
-Thus the above program was executed successfully.
+Thus,the program has been executed successfully.
